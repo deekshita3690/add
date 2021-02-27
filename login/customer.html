@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Order Book</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<div class="container">
+  <h1>Order Book - Customer</h1>
+  <div class="form">
+<form action="/action_page.php" class="form1">
+  <label for="stock">Search Stock</label>
+  <select name="stock" id="stock">
+    <option value="DBS">DBS</option>
+    <option value="DBS1">DBS1</option>
+    <option value="DBS2">DBS2</option>
+    <option value="DBS3">DBS3</option>
+  </select>
+  <br><br>
+  <label for="type">Order Type </label>
+  <select name="type" id="type">
+    <option value="Limit">Limit</option>
+    <option value="Market">Market</option>
+  </select>
+  <br><br>
+  <label for="price">Price </label>
+  <input type="number" name="price" id="price">
+  <br><br>
+  <label for="quantity">Quantity </label>
+  <input type="number" name="quantity" id="quantity">
+  <br><br>
+  <input type="submit" name="place_order" id="place_order">
+</form>
+</div>
+</div>
+  </body>
+</html>
